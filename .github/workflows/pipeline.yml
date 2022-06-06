@@ -45,7 +45,7 @@ jobs:
           DEFAULT_BUMP: 'patch'
           WITH_V: true
           INITIAL_VERSION: '11.13.0'
-          WITH_V: true
+          VERBOSE: false
   heroku_deployment_pipeline:
     runs-on: ubuntu-20.04
     if: ${{ github.event_name == 'push' }}
