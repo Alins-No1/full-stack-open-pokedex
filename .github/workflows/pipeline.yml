@@ -43,7 +43,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DEFAULT_BUMP: 'patch'
-          DRY_RUN: true
           WITH_V: true
           INITIAL_VERSION: '11.13.0'
           WITH_V: true
